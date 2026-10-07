@@ -98,3 +98,9 @@ To overcome these limitations, an automated Python web scraping workflow was dev
 2. **Handle Pagination:** Automatically traverse through all paginated results (1 to N pages) per leaderboard view.
 3. **Extract Raw Metrics:** Scrape key metrics for each pair, including overall rank, team names, individual zone performances (*Strength*, *Endurance*, *MetCon X*), and total points.
 4. **Export Clean Dataset:** Standardize raw metric strings (e.g., parsing `808KG`, `10.487KM`, and `11:16` time formats) into clean tabular data for downstream statistical analysis.
+
+📌 **Scraping Notebook:**  
+You can explore the complete web scraping notebook and implementation here:  
+👉 [`notebook/ATHX_Web_Scraping.ipynb`](notebook/ATHX_Web_Scraping.ipynb)
+
+---
