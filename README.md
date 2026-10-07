@@ -72,3 +72,29 @@ A grueling, fast-paced metabolic circuit with a strict **25-minute time cap**:
 </p>
 
 ---
+
+## 📊 1. Data Collection & Web Scraping
+
+The primary goal of the data collection phase was to build a comprehensive, structured dataset containing all official competition results directly from the official source: [ATHX Games Team Leaderboards](https://athxgames.com/team-leaderboards).
+
+<p align="center">
+  <img src="images/0.%20Results_scraping.jpg" alt="ATHX Team Leaderboard Interface" width="800"/>
+</p>
+
+### 🔍 Source Structure & Challenges
+The official leaderboard interface relies on several dynamic filter variables:
+* **Year:** Event edition (e.g., 2026)
+* **Country & Event:** Location-specific event (e.g., *ATHX MARSEILLE 2026*)
+* **Division:** Gender split (*Male*, *Female*, *Mixed*)
+* **Age Group:** Age bracket selections
+* **Category:** Competition level (*ATHX Lite*, *ATHX*, *ATHX Pro*)
+* **Workout:** Overall ranking vs. specific zone metrics
+
+The platform displays **10 results per page** across multiple pages (e.g., up to 20 pages / 197+ team entries for a single event configuration). Manually collecting or copying this data across different categories, events, and pages would be inefficient and error-prone.
+
+### 🤖 Automated Web Scraping Pipeline
+To overcome these limitations, an automated Python web scraping workflow was developed to:
+1. **Iterate through dynamic filters:** Programmatically select and fetch data for all target divisions and events.
+2. **Handle Pagination:** Automatically traverse through all paginated results (1 to N pages) per leaderboard view.
+3. **Extract Raw Metrics:** Scrape key metrics for each pair, including overall rank, team names, individual zone performances (*Strength*, *Endurance*, *MetCon X*), and total points.
+4. **Export Clean Dataset:** Standardize raw metric strings (e.g., parsing `808KG`, `10.487KM`, and `11:16` time formats) into clean tabular data for downstream statistical analysis.
