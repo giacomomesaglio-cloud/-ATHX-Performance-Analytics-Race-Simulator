@@ -20,7 +20,15 @@ As a data-driven individual, I couldn't resist applying analytical rigor to this
 
 ## 📑 About the ATHX Competition
 
-**ATHX** is an elite hybrid fitness event designed for **teams of two athletes** competing together. The pair must strategically manage effort, split work reps, and push each other through three distinct workout zones that test the full spectrum of athletic capability:
+**ATHX** is an elite hybrid fitness event designed for **teams of two athletes** competing together. The pair must strategically manage effort, split work reps, and push each other through three distinct workout zones that test the full spectrum of athletic capability.
+
+### 🏆 Competition Categories
+The event features three divisions with escalating standards for workout parameters (weights, distances, and intervals):
+1. **ATHX Lite** – Entry-level standards designed for beginners and first-time hybrid athletes.
+2. **ATHX** *(Our Division)* – The core competitive standard balancing heavy capacity, high volume, and endurance.
+3. **ATHX Pro** – Advanced standards with heavier loads and increased work volumes for elite competitors.
+
+---
 
 ### 🔴 Zone 1: Strength
 A 20-minute heavy lifting protocol testing maximal raw strength across three fundamental movement patterns:
@@ -37,7 +45,7 @@ A 20-minute heavy lifting protocol testing maximal raw strength across three fun
 
 ### 🟡 Zone 2: Endurance
 A 22-minute aerobic stamina test combining running and rowing in an alternating pair format:
-* **Movement A:** Running (750m intervals for ATHX category)
+* **Movement A:** Running (750m intervals for **ATHX** category)
 * **Movement B:** Rowing
 * **Format:** Athlete A starts on the run while Athlete B rows; athletes swap every time the runner completes their prescribed distance.
 * **Scoring:** Total combined distance covered by the pair (Km).
