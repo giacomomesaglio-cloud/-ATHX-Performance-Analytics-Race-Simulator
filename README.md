@@ -106,28 +106,36 @@ You can explore the complete web scraping notebook and implementation here:
 ---
 
 ---
+---
 
 ## 📊 2. Performance Evaluation & Simulation (ATHX Performance Evaluator)
 
-The analysis begins with the integration of the **`ATHX PERFORMANCE EVALUATOR`** notebook. This tool allows you to:
-* **Input Actual Data:** Log the real performances achieved across the various zones/stations during the race.
-* **Run Simulations:** Hypothetically adjust split times for each zone to observe changes in relative ranking within the official competition field.
+The analytical framework begins with the integration of the **`ATHX PERFORMANCE EVALUATOR`** notebook, a dedicated tool designed to break down athlete performance and project potential outcomes:
+
+* **Input Actual Data:** Logs and archives exact completion times, station split times, and transition intervals achieved across all official race zones.
+* **Run Simulations:** Enables scenario modeling by dynamically adjusting individual zone times. This allows us to simulate "what-if" performance scenarios and evaluate their direct impact on overall ranking within the official field.
 
 ---
 
 ## 📈 3. Performance Distribution Curves
 
-To understand our positioning and that of our teammates relative to all race participants, two main charts were generated:
+To comprehensively evaluate our team's relative standing against the complete field of competitors, two core statistical distribution visualisations were implemented:
 
-### A. Cumulative Percentile (`cumulative_percentile.png`)
-* **What it shows:** Represents the cumulative percentage of participants who finished the race within a given time.
-* **Interpretation:** Allows immediate identification of your percentile rank. Positioning higher up on the curve indicates a performance superior to the majority of athletes.
-* **Analysis of Our Performance:** The chart highlights the exact positions of my teammate and me along the curve, providing a clear measure of how many competitors we passed and the gap remaining to reach higher percentiles (e.g., Top 10% or Top 25%).
+### A. Cumulative Percentile Chart
 
-### B. Performance Distribution (`performance_distribution.png`)
-* **What it shows:** The frequency distribution of overall race times (bell curve / performance density).
-* **Interpretation:** Displays the main concentration of the field and the overall time dispersion.
-* **Analysis of Our Performance:** Plotting our finish time on this chart reveals whether we fall into the middle of the pack or out in the tail of excellence.
+![Cumulative Percentile Distribution](cumulative_percentile.png)
+
+* **What it shows:** Displays the cumulative percentage of all competition finishers reaching the finish line across total race durations.
+* **Interpretation:** Serves as a direct indicator of percentile rank. A steep rise earlier in the timeline reflects elite performance density, while higher placement along the Y-axis correlates to outperforming a higher percentage of athletes.
+* **Analysis of Our Performance:** Highlights our exact positions (and those of teammates) along the completion trajectory. This provides a clear, quantitative baseline showing how many athletes were outpaced and measuring the precise time delta required to breach higher threshold percentiles (e.g., Top 25%, Top 10%).
+
+### B. Performance Distribution Chart
+
+![Performance Distribution](performance_distribution.png)
+
+* **What it shows:** Illustrates the frequency and probability density of overall finish times across the entire athlete population (classic bell curve).
+* **Interpretation:** Maps where the vast majority of athletes cluster, identifying median performance zones as well as the dispersion spread across both ends of the spectrum.
+* **Analysis of Our Performance:** Plotting our exact finish time on this distribution reveals whether our current athletic output sits within the central field average or shifts toward the high-performance tail of the competition.
 
 ---
 
@@ -135,29 +143,38 @@ To understand our positioning and that of our teammates relative to all race par
 
 ![Radar Chart Athletic Profile](radar_chart_profile.png)
 
-The **Radar Chart** compares our athletic profile across individual zones/skills against two key benchmarks:
-1. **Top 10% Benchmark:** The average level of the top 10% finishers in the competition.
-2. **ATHX Progression Milestones Benchmark:** Ideal progression targets defined by the ATHX standard.
+The **Radar Chart** provides a multi-axial breakdown of our athletic performance across individual race stations and physical domains, evaluated against two distinct competitive benchmarks:
 
-### Profile Insights
-* **Strengths:** Highlights stations where our performance is close to or overlaps with top-tier athletes.
-* **Areas for Improvement:** Graphically identifies gaps (empty space relative to the Top 10% line), clearly showing which stations to prioritize during the next training cycle.
+1. **Top 10% Benchmark:** The empirical average performance metrics calculated from the top 10% overall finishers in the competition.
+2. **ATHX Progression Milestones Benchmark:** Standardized performance targets established by the ATHX methodology to guide structured athletic development.
+
+### Profile Insights & Strategic Takeaways
+* **Identified Strengths:** Clearly pinpoints stations and skill domains where our current splits closely align with or match top-tier competitor output.
+* **Target Areas for Improvement:** Graphically exposes area deficits—represented by the visual gap between our profile area and the Top 10% boundary line—providing an immediate guide on which stations will deliver the highest yield from targeted training blocks.
 
 ---
 
 ## 🔍 5. Gap Analysis & Rank Improvement Analysis
 
 ### A. Gap Analysis (Top 10% Target Benchmark)
-The gap analysis quantitatively measures the overall time and individual split reductions needed to enter the Top 10% of the standings:
-* **Target:** Reach the 90th percentile split times.
-* **Variance by Zone:** The exact difference (in seconds/minutes) is calculated for each station, enabling prioritized training interventions based on the highest return on time invested.
+The gap analysis provides a granular breakdown of the time reductions needed across each segment to systematically reach the 90th percentile threshold:
+
+* **Target Objective:** Match or exceed the split benchmarks established by the Top 10% finishing field.
+* **Variance by Zone:** Measures exact time differences (in seconds and minutes) for every individual station. This identifies efficiency leaks and allows us to prioritize high-ROI interventions in upcoming training blocks.
 
 ### B. Rank Improvement Analysis
-Using the simulation module in the **ATHX PERFORMANCE EVALUATOR**, a sensitivity analysis of overall positioning was conducted:
-* **Simulating Improvements:** Answering the question: *"How many leaderboard spots do we gain if we reduce our time by X% in our most critical zones?"*.
-* **Race Strategy:** Demonstrates how incremental gains in high-leverage stations can lead to a significant jump in overall ranking.
+Utilizing the interactive simulation capabilities of the **`ATHX PERFORMANCE EVALUATOR`**, a sensitivity analysis was conducted to measure leaderboard movement relative to performance gains:
+
+* **Simulating Improvements:** Solves key strategic questions such as: *"How many leaderboard positions do we gain by shaving off 5% or 10% in our weakest stations?"*
+* **Race Strategy Optimization:** Demonstrates that strategic focus on high-leverage stations yields significant jumps in overall classification, often far more effectively than marginal gains in already strong disciplines.
 
 ---
+
+## 📓 Analytical Notebook
+
+The complete data processing pipeline, statistical models, chart generation scripts, and simulation tools are available in the Jupyter Notebook:
+
+* [`notebook_analitico.ipynb`](./notebook_analitico.ipynb) *(Note: Code refactoring, documentation updates, and visual polish are ongoing prior to the final release).*
 
 ## 📓 Analytical Notebook
 
