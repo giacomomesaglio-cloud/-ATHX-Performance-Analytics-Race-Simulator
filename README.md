@@ -78,7 +78,7 @@ A grueling, fast-paced metabolic circuit with a strict **25-minute time cap**:
 The primary goal of the data collection phase was to build a comprehensive, structured dataset containing all official competition results directly from the official source: [ATHX Games Team Leaderboards](https://athxgames.com/team-leaderboards).
 
 <p align="center">
-  <img src="images/0.%20Results_scraping.jpg" alt="ATHX Team Leaderboard Interface" width="800"/>
+  <img src="images/0.%20Results_scraping.png" alt="ATHX Team Leaderboard Interface" width="800"/>
 </p>
 
 ### 🔍 Source Structure & Challenges
