@@ -124,9 +124,9 @@ To comprehensively evaluate our team's relative standing against the complete fi
 
 ### A. Cumulative Percentile & Distribution Charts
 
-![Zone 1 Performance](1.Zone_1_Tom&Giaco.png)
-![Zone 2 Performance](2.Zone_2_Tom&Giaco.png)
-![Zone 3 Performance](3.Zone_3_Tom&Giaco.png)
+![Zone 1 Performance](1.Zone_1_Tom&Giaco.jpg)
+![Zone 2 Performance](2.Zone_2_Tom&Giaco.jpg)
+![Zone 3 Performance](3.Zone_3_Tom&Giaco.jpg)
 
 * **What it shows:** Displays the performance trajectory, split distributions, and completion times across individual race zones for Tom and Giaco compared to the competition field.
 * **Interpretation:** Serves as a direct indicator of percentile rank per zone. Higher placement along the curve correlates to outperforming a larger portion of the field in specific disciplines.
