@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="images/0.%20ATHX_logo.png" alt="ATHX Logo" width="600"/>
+</p>
+
 # 🏋️‍♂️ ATHX Performance Analytics & Race Simulator
 
 ## 📌 Personal Background & Motivation
@@ -8,11 +12,15 @@ Having always been an active sports enthusiast (beach volleyball, rock climbing,
 
 As a data-driven individual, I couldn't resist applying analytical rigor to this athletic endeavor. What started as a personal quest to benchmark my performance evolved into a comprehensive data analysis and race simulation tool designed to uncover key competitive insights across the ATHX field.
 
+<p align="center">
+  <img src="images/Team.jpeg" alt="ATHX Team" width="500"/>
+</p>
+
 ---
 
 ## 📑 About the ATHX Competition
 
-**ATHX** is an elite hybrid fitness event where teams of two compete across three distinct workout zones, testing the full spectrum of athletic capability:
+**ATHX** is an elite hybrid fitness event designed for **teams of two athletes** competing together. The pair must strategically manage effort, split work reps, and push each other through three distinct workout zones that test the full spectrum of athletic capability:
 
 ### 🔴 Zone 1: Strength
 A 20-minute heavy lifting protocol testing maximal raw strength across three fundamental movement patterns:
