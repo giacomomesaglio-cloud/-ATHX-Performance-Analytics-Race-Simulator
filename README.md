@@ -1,5 +1,5 @@
-<p align="center">
-  <img src="images/0.%20ATHX_logo.png" alt="ATHX Logo" width="600"/>
+<p align="center" style="background-color: #000000; padding: 20px 0; margin-bottom: 20px;">
+  <img src="images/0.%20ATHX_logo.png" alt="ATHX Logo" width="100%" style="max-width: 800px; display: block; margin: 0 auto;"/>
 </p>
 
 # 🏋️‍♂️ ATHX Performance Analytics & Race Simulator
@@ -29,7 +29,9 @@ A 20-minute heavy lifting protocol testing maximal raw strength across three fun
 * **12–20 min:** 5RM Deadlift
 * **Scoring:** Combined total weight lifted by the pair (Kg).
 
-![ATHX Zone 1 - Strength](images/1.ATHX_Workout_Zone1.jpg)
+<p align="center">
+  <img src="images/1.ATHX_Workout_Zone1.jpg" alt="ATHX Zone 1 - Strength" width="500"/>
+</p>
 
 ---
 
@@ -40,7 +42,9 @@ A 22-minute aerobic stamina test combining running and rowing in an alternating 
 * **Format:** Athlete A starts on the run while Athlete B rows; athletes swap every time the runner completes their prescribed distance.
 * **Scoring:** Total combined distance covered by the pair (Km).
 
-![ATHX Zone 2 - Endurance](images/2.ATHX_Workout_Zone2.jpg)
+<p align="center">
+  <img src="images/2.ATHX_Workout_Zone2.jpg" alt="ATHX Zone 2 - Endurance" width="500"/>
+</p>
 
 ---
 
@@ -55,6 +59,8 @@ A grueling, fast-paced metabolic circuit with a strict **25-minute time cap**:
 7. **60 Cal** Ski-Erg
 * **Scoring:** Total time to complete the circuit (Minutes/Seconds).
 
-![ATHX Zone 3 - MetCon X](images/3.ATHX_Workout_Zone3.jpg)
+<p align="center">
+  <img src="images/3.ATHX_Workout_Zone3.jpg" alt="ATHX Zone 3 - MetCon X" width="500"/>
+</p>
 
 ---
