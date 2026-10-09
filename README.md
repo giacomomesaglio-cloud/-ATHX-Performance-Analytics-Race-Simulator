@@ -172,4 +172,4 @@ Utilizing the interactive simulation capabilities of the **`ATHX PERFORMANCE EVA
 
 The complete data processing pipeline, statistical models, chart generation scripts, and simulation tools are available in the Jupyter Notebook:
 
-* [`notebook_analitico.ipynb`](./notebook/notebook_analitico.ipynb) *(Note: Code refactoring, documentation updates, and visual polish are ongoing prior to the final release).*
+* [`notebook_analitico.ipynb`](./notebook/ATHX_Marseille_Team_analysis.ipynb) *(Note: Code refactoring, documentation updates, and visual polish are ongoing prior to the final release).*
