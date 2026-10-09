@@ -173,3 +173,13 @@ Utilizing the interactive simulation capabilities of the **`ATHX PERFORMANCE EVA
 The complete data processing pipeline, statistical models, chart generation scripts, and simulation tools are available in the Jupyter Notebook:
 
 * [`notebook_analitico.ipynb`](./notebook/ATHX_Marseille_Team_analysis.ipynb) *(Note: Code refactoring, documentation updates, and visual polish are ongoing prior to the final release).*
+
+---
+
+### 📊 Analysis Notes & Notebook Flexibility
+
+This repository presents the performance analysis and results achieved by my team during the competition. However, the notebook has been designed with flexibility in mind: by adjusting the input variables, you can easily run the exact same analysis for **any other team**.
+
+Furthermore, by entering hypothetical race times and parameters, the notebook acts as a **simulation tool** to explore how different performance scenarios would impact overall standings.
+
+🚀 **Coming Soon:** *Cluster Analysis on race results.*
