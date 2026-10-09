@@ -176,10 +176,14 @@ The complete data processing pipeline, statistical models, chart generation scri
 
 ---
 
+---
+
 ### 📊 Analysis Notes & Notebook Flexibility
 
 This repository presents the performance analysis and results achieved by my team during the competition. However, the notebook has been designed with flexibility in mind: by adjusting the input variables, you can easily run the exact same analysis for **any other team**.
 
 Furthermore, by entering hypothetical race times and parameters, the notebook acts as a **simulation tool** to explore how different performance scenarios would impact overall standings.
 
-🚀 **Coming Soon:** *Cluster Analysis on race results.*
+🚀 **Coming Soon:**
+* **Cluster Analysis** on race results.
+* **Personalized training recommendations** based on individual and team performance metrics.
